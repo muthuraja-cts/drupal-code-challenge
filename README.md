@@ -69,6 +69,7 @@ I have filled out the "Request a Demo" form. but the Acuia team may take time to
 
 `Your final submission is expected to contain a) Updated code of the module in this repository b) A link to the demo site c) Admin (uid=1) credentials to the demo site`
 
-Github Repo: https://github.com/muthurajavs1993/drupal-code-challenge
+Github Repo: https://github.com/muthuraja-cts/drupal-code-challenge
 Demo URL: https://dev-drupal9-sphdemo.pantheonsite.io/
-Admin login credential: User Name : admin ; Password : Welcome@123#
+User Name : admin 
+Password : Welcome@123#
