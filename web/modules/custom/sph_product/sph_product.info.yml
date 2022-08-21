@@ -1,0 +1,10 @@
+name: SPH Product
+type: module
+description: 'Display listing and product details page'
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:block
+  - drupal:node
+  - drupal:layout_builder

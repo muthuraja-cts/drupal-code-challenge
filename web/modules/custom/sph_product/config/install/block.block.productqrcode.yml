@@ -1,0 +1,33 @@
+uuid: b8a60e75-22ee-4100-ad31-573a0a4409ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - sph_product
+    - system
+  theme:
+    - olivero
+id: productqrcode
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: sph_product_product_qr_code
+settings:
+  id: sph_product_product_qr_code
+  label: 'Product QR Code'
+  label_display: '0'
+  provider: sph_product
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/node/*'

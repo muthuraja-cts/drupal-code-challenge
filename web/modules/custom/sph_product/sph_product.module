@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function sph_product_theme() {
+  return [
+    'qr_code_generation_block' => [
+      'variables' => [
+        'qr_code' => NULL,
+      ],
+    ],
+  ];
+}
